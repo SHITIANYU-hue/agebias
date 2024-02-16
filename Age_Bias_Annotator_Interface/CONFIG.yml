@@ -1,0 +1,13 @@
+FilePath :
+  raw_dataset: './raw_dataset/augmented_age_2024-02-16_22_28.csv'
+  out_path: 'output'
+
+Float  :
+  lr : 1e-4
+Int :
+  batch : 16
+  epoches : 100
+
+List :
+  keywords : "['Thank', 'Sorry']"
+
