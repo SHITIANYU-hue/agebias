@@ -1,10 +1,12 @@
 FilePath :
-  raw_dataset: './raw_dataset/augmented_age_2024-02-16_22_28.csv'
+  raw_dataset: 'raw_dataset/augmented_age_2024-02-19_14_32.csv'
   out_path: 'output'
+  buffer_path: 'buffer'
 
 Float  :
   lr : 1e-4
 Int :
+  key_word_index: 15
   batch : 16
   epoches : 100
 
