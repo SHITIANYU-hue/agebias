@@ -1,0 +1,21 @@
+2024-02-27 17:00:03,531 INFO    MainThread:24573 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-27 17:00:03,531 INFO    MainThread:24573 [wandb_setup.py:_flush():76] Configure stats pid to 24573
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_setup.py:_flush():76] Loading settings from /home/student2020/.config/wandb/settings
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_setup.py:_flush():76] Loading settings from /home/student2020/srcao/Domina Specific Preference/wandb/settings
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': '/home/student2020/srcao/Domina Specific Preference/train.py', 'program': '/home/student2020/srcao/Domina Specific Preference/train.py'}
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_init.py:_log_setup():526] Logging user logs to /home/student2020/srcao/Domina Specific Preference/wandb/run-20240227_170003-tnu0nk7d/logs/debug.log
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_init.py:_log_setup():527] Logging internal logs to /home/student2020/srcao/Domina Specific Preference/wandb/run-20240227_170003-tnu0nk7d/logs/debug-internal.log
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_init.py:init():566] calling init triggers
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_init.py:init():616] starting backend
+2024-02-27 17:00:03,532 INFO    MainThread:24573 [wandb_init.py:init():620] setting up manager
+2024-02-27 17:00:03,535 INFO    MainThread:24573 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-27 17:00:03,536 INFO    MainThread:24573 [wandb_init.py:init():628] backend started and connected
+2024-02-27 17:00:03,542 INFO    MainThread:24573 [wandb_init.py:init():720] updated telemetry
+2024-02-27 17:00:03,542 INFO    MainThread:24573 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-27 17:00:04,376 INFO    MainThread:24573 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-27 17:00:04,751 INFO    MainThread:24573 [wandb_run.py:_on_init():2271] got version response 
+2024-02-27 17:00:04,752 INFO    MainThread:24573 [wandb_init.py:init():804] starting run threads in backend

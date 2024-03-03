@@ -1,0 +1,16 @@
+
+{'eval_data/age_bias_contain_score_test.json_loss': 14.839181900024414, 'eval_data/age_bias_contain_score_test.json_Preference total Acc': 0.5102505683898926, 'eval_data/age_bias_contain_score_test.json_First-two Acc': 0.5102505683898926, 'eval_data/age_bias_contain_score_test.json_runtime': 215.0184, 'eval_data/age_bias_contain_score_test.json_samples_per_second': 2.042, 'eval_data/age_bias_contain_score_test.json_steps_per_second': 0.512}
+Traceback (most recent call last):
+  File "/home/student2020/srcao/Domina Specific Preference/train.py", line 180, in <module>
+  File "/home/student2020/srcao/Domina Specific Preference/train.py", line 161, in train
+  File "/home/student2020/anaconda3/envs/dsp/lib/python3.9/site-packages/transformers/trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "/home/student2020/anaconda3/envs/dsp/lib/python3.9/site-packages/transformers/trainer.py", line 1722, in _inner_training_loop
+    self.optimizer, self.lr_scheduler = deepspeed_init(self, num_training_steps=max_steps)
+  File "/home/student2020/anaconda3/envs/dsp/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 389, in deepspeed_init
+    hf_deepspeed_config.trainer_config_finalize(args, model, num_training_steps)
+  File "/home/student2020/anaconda3/envs/dsp/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 261, in trainer_config_finalize
+    raise ValueError(
+ValueError: Please correct the following DeepSpeed config values that mismatch TrainingArguments values:
+- ds scheduler.params.total_num_steps=0 vs hf num_training_steps (calculated)=260
+The easiest method is to set these DeepSpeed config values to 'auto'.
