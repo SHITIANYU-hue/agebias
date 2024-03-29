@@ -1,6 +1,0 @@
-
-{'eval_data/age_bias_contain_score_test.json_loss': 1.5377297401428223, 'eval_data/age_bias_contain_score_test.json_Preference total Acc': 0.5125284790992737, 'eval_data/age_bias_contain_score_test.json_First-two Acc': 0.5125284790992737, 'eval_data/age_bias_contain_score_test.json_runtime': 149.2731, 'eval_data/age_bias_contain_score_test.json_samples_per_second': 2.941, 'eval_data/age_bias_contain_score_test.json_steps_per_second': 0.737}
-Using /home/student2021/.cache/torch_extensions/py310_cu117 as PyTorch extensions root...
-Loading extension module cpu_adam...
-Time to load cpu_adam op: 29.59419012069702 seconds
-Parameter Offload: Total persistent parameters: 270336 in 66 params
