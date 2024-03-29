@@ -1,0 +1,211 @@
+{
+    "os": "Linux-4.15.0-213-generic-x86_64-with-glibc2.27",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-02-29T04:30:30.860526",
+    "startedAt": "2024-02-29T04:30:29.611441",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--do_train",
+        "True",
+        "--eval_at_start",
+        "True",
+        "--lm_loss_coeff",
+        "0.5",
+        "--model_type",
+        "llama2",
+        "--model_name_or_path",
+        "/home/student2021/srcao/base_LLM/llama2-7b",
+        "--train_data_path",
+        "data/age_bias_contain_score_train.json",
+        "--eval_data_path",
+        "data/age_bias_contain_score_test.json",
+        "--remove_unused_columns",
+        "false",
+        "--reward_domain",
+        "general",
+        "--output_dir",
+        "/home/student2021/srcao/Domain_Specific_Preference_for_different_base_model/age_unbiased_checkpoint/",
+        "--num_train_epochs",
+        "1",
+        "--per_device_train_batch_size",
+        "1",
+        "--per_device_eval_batch_size",
+        "1",
+        "--gradient_accumulation_steps",
+        "8",
+        "--evaluation_strategy",
+        "steps",
+        "--padding_side",
+        "right",
+        "--truncation_side",
+        "left",
+        "--pooling_type",
+        "max",
+        "--max_length",
+        "512",
+        "--save_strategy",
+        "steps",
+        "--learning_rate",
+        "1e-6",
+        "--warmup_steps",
+        "100",
+        "--logging_steps",
+        "1",
+        "--eval_steps",
+        "10",
+        "--save_steps",
+        "300",
+        "--deepspeed",
+        "configs/default_offload_opt_param.json",
+        "--tf32",
+        "false",
+        "--fp16",
+        "True"
+    ],
+    "state": "running",
+    "program": "/home/student2021/srcao/Domain_Specific_Preference_for_different_base_model/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "ubuntu",
+    "username": "student2021",
+    "executable": "/home/student2021/anaconda3/envs/dsp/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2499.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 499.9882621765137,
+            "used": 451.09268951416016
+        }
+    },
+    "gpu": "Tesla V100-SXM2-32GB",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34359738368
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34359738368
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34359738368
+        },
+        {
+            "name": "Tesla V100-SXM2-32GB",
+            "memory_total": 34359738368
+        }
+    ],
+    "memory": {
+        "total": 216.4734115600586
+    }
+}
