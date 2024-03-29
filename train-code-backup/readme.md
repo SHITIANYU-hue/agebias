@@ -11,6 +11,7 @@ Domain_Specific_Preference
 - 下载 llama2 模型
 
   `pip install -U huggingface_hub`
+  
   `pip install -U hf-transfer`
 
   linux系统设置镜像站：
