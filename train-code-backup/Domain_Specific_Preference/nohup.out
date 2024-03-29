@@ -1,0 +1,24 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+Traceback (most recent call last):
+  File "D:\software\anaconda\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "D:\software\anaconda\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\Scripts\torchrun.exe\__main__.py", line 4, in <module>
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\run.py", line 386, in <module>
+    from torch.distributed.launcher.api import LaunchConfig, elastic_launch
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\launcher\__init__.py", line 10, in <module>
+    from torch.distributed.launcher.api import (  # noqa: F401
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\launcher\api.py", line 15, in <module>
+    from torch.distributed.elastic.agent.server.api import WorkerSpec
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\elastic\agent\server\__init__.py", line 40, in <module>
+    from .local_elastic_agent import TORCHELASTIC_ENABLE_FILE_TIMER, TORCHELASTIC_TIMER_FILE
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\elastic\agent\server\local_elastic_agent.py", line 19, in <module>
+    import torch.distributed.elastic.timer as timer
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\elastic\timer\__init__.py", line 44, in <module>
+    from .file_based_local_timer import FileTimerClient, FileTimerServer, FileTimerRequest  # noqa: F401
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\elastic\timer\file_based_local_timer.py", line 63, in <module>
+    class FileTimerClient(TimerClient):
+  File "C:\Users\cao\AppData\Roaming\Python\Python39\site-packages\torch\distributed\elastic\timer\file_based_local_timer.py", line 81, in FileTimerClient
+    def __init__(self, file_path: str, signal=signal.SIGKILL) -> None:
+AttributeError: module 'signal' has no attribute 'SIGKILL'
